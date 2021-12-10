@@ -26,6 +26,7 @@ services:
 
 ## docker run
 Use the following command to run the container with `docker run`
+
 `docker run -e PROJECT_ID=project-test -e PORT=8085 -p 8085:8085 centric/pubsub-emulator:latest`
 
 # Building
