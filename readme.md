@@ -9,7 +9,7 @@ version: "3"
 
 services:
   pubsub-emulator:
-    image: centric/pubsub-emulator:latest
+    image: centrictechnologies/pubsub-emulator:latest
     environment:
       - PROJECT_ID=project-test
       - PORT=8085
@@ -27,7 +27,7 @@ services:
 ## docker run
 Use the following command to run the container with `docker run`
 
-`docker run -e PROJECT_ID=project-test -e PORT=8085 -p 8085:8085 centric/pubsub-emulator:latest`
+`docker run -e PROJECT_ID=project-test -e PORT=8085 -p 8085:8085 centrictechnologies/pubsub-emulator:latest`
 
 # Building
-`docker build centric/pubsub-emulator:latest .`
+`docker build centrictechnologies/pubsub-emulator:latest .`
